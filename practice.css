@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+}
+body{
+    box-sizing: border-box;
+}
+
+
+
+.img1{
+    font-size: 1.7rem;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("img/dev-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero{
+    background-color:black;
+    padding: 0.5rem;
+    opacity: 0.5;
+    width: 100%;
+}
+.hero.h1{
+    margin-bottom: 5rem;
+}
+
+
+.down-arrow{
+    font-size: 100px;
+    font-weight: bolder;
+    position: absolute;
+    transform: rotate(90deg);
+    bottom: 100px;
+    border-color:brown;
+    animation: bounce 1000ms infinite;
+}
+
+@keyframes bounce{
+    0% {
+        bottom: 100px;
+    }
+    100%{
+        bottom: 35px;
+        color: brown;
+    }
+
+
+    
+}
+
+.sec1{
+    background-color: black;
+    color: white;
+    padding: 10%;
+    
+}
+
+.img2{
+    font-size: 1.7rem;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("img/dev-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero1{
+    background-color: black;
+    padding: 0.5rem;
+    opacity: 0.5;
+    width: 30rem;
+}
+.sec2{
+    background-color: black;
+    color: white;
+    padding:10% ;
+    width: 100%;
+}
+.img1,
+.img2{
+    background-attachment: fixed;
+}
